@@ -6,13 +6,9 @@ const dbSchema = mongoose.Schema({
   firstName: String,
   lastName: String,
   salary: Number,
-  department: String,
-  lastCompany: String,
-  lastSalary: Number,
-  Exp: Number,
-  contact: Number,
+  company: String,
+  experience: Number,
   graduated: Number,
-  stream: String
 })
 
 var rec1 =[{
